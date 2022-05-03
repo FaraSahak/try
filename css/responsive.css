@@ -442,9 +442,7 @@ ul.link li {
 .mens_taital { display: none; }
 .mens_taital_2 { display: none; }
 .page_no { display: none;}
-.bg-light { background-color: #db5660!important;  }
-.header_section { background-size: cover;}
-.header_section { background-size: cover; background-repeat: no-repeat;}
+.bg-light { background-color: gray!important;  }
 .buy_text { width: 100%; }
 .email_box { width: 100%; }
 .shop_banner { margin-top: 20px;}
