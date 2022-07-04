@@ -147,6 +147,22 @@ a,
      transition: all .3s ease-in-out;
 }
 
+/*-----------------------------------------------------------------------------*/
+                                    /*My css*/
+
+#login_btn {
+    background-color: gray;
+    float: right;
+    /*font-size: 15px;*/
+    width: 70px;
+}
+
+div.r:hover {
+    background-color: red;
+}
+
+/*-----------------------------------------------------------------------------*/
+
 img {
      max-width: 100%;
      height: auto;
@@ -504,6 +520,16 @@ body{
     margin-bottom: 15px;
 }
 
+.best_shoes:hover {
+    /*transition: 2s;*/
+    border: solid 5px crimson;
+    /*transform: translate(10px);*/
+}
+
+.best_shoes_btn{
+    background-color: transparent;
+}
+
 .best_text{
 	width: 100%;
 	float: left;
@@ -518,6 +544,93 @@ body{
 	text-align: center;
 	min-height: 220px;
 }
+
+.best_products {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    height: auto;
+    padding: 20px 20px 20px 0px;
+    margin-top: 15px;
+    /*border: solid 2px;*/
+}
+
+.products_icon {
+    width: 100%;
+    float: left;
+    text-align: center;
+    min-height: 100%;
+}
+
+.products_price {
+    /*border: solid 2px;*/
+    margin-left: 515px;
+    width: 130px;
+    position: relative;
+    top: -25px;
+    font-size: 17px;
+    color: black;
+    /*background-color: gray;*/
+}
+
+.buy_btn {
+    background-color: gray;
+    width: 70px;
+    /*margin-left: 750px;*/
+}
+
+.buy_form {
+    width: 75px;
+    margin-left: 745px;
+    margin-top: -50px;
+    visibility: hidden;
+    /*border: solid 2px;*/
+}
+
+.buy_form_opt {
+    width: 75px;
+    margin-left: 745px;
+    margin-top: -50px;
+}
+
+/*--------------------------------*/
+
+.products_text {
+  padding: 20px;
+  border-radius: 3px;
+    margin-left: 150px;
+    width: 300px;
+    height: 320px;
+    margin-bottom: 20px;
+  overflow: auto;
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-fill-color: black;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  transition: color .3s ease;
+}
+
+.products_text:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+*::-webkit-scrollbar,
+*::-webkit-scrollbar-thumb {
+  width: 26px;
+  height: 50%;
+  border-radius: 13px;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+}
+
+*::-webkit-scrollbar-thumb {        
+  box-shadow: inset 0 0 0 10px;
+}
+
+/*-------------------------------*/
+
+/*.best_products:hover {
+    border: solid 5px crimson;
+}*/
 
 .star_text{
 	width: 100%;

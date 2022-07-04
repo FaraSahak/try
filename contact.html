@@ -42,6 +42,7 @@
 					<div class="logo"><a href="index.html"><img src="images/logos.png"></a></div>
 				</div>
 				<div class="col-sm-9">
+                    <a href="login.html"><button id="login_btn">Log In</button></a>
 					<nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -49,12 +50,17 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                            <a class="nav-item nav-link" href="index.html">Home</a>
-                           <a class="nav-item nav-link" href="racing boots.html">Special</a>
-                           <a class="nav-item nav-link" href="shoes.html">Catalog</a>
+                           <a class="nav-item nav-link" href="special.html">Special</a>
+                           <select hidden name="weapons" id="weapons" onchange="location = value">
+                            <option value="catalog.html" disabled selected hidden>Catalog</option>
+                            <option value="knives.html">Knives</option>
+                            <option value="airsofts.html">Airsofts</option>
+                            <option value="">For Home</option>
+                           </select>
                            <a class="nav-item nav-link" href="collection.html">New</a>
                            <a class="nav-item nav-link" href="contact.html">Contact</a>
                            <a class="nav-item nav-link last" href="#"><img src="images/search_icon.png"></a>
-                           <a class="nav-item nav-link last" href="contact.html"><img src="images/shop_icon.png"></a>
+                           <a class="nav-item nav-link last" href="#"><img src="images/shop_icon.png"></a>
                         </div>
                     </div>
                     </nav>
@@ -73,7 +79,7 @@
     				<div class="email_box">
                     <div class="input_main">
                        <div class="container">
-                          <form action="/action_page.php">
+                          <form action="check.php" method="post">
                             <div class="form-group">
                               <input type="text" class="email-bt" placeholder="Name" name="Name">
                             </div>
@@ -81,17 +87,18 @@
                               <input type="text" class="email-bt" placeholder="Phone Numbar" name="Name">
                             </div>
                             <div class="form-group">
-                              <input type="text" class="email-bt" placeholder="Email" name="Email">
+                              <input type="email" class="email-bt" placeholder="Email" name="Email">
                             </div>
                             
                             <div class="form-group">
-                                <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+                                <textarea class="massage-bt" placeholder="Message" rows="5" id="comment" name="Message"></textarea>
                             </div>
-                          </form>   
+                             
                        </div> 
                        <div class="send_btn">
                         <button class="main_bt">Send</button>
-                       </div>                   
+                       </div>
+                       </form>                  
                     </div>
     		</div>
     			

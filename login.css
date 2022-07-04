@@ -1,0 +1,29 @@
+body {
+	color: white;
+}
+
+#login {
+	background-color: black;
+	height: 370px;
+	width: 200px;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+	width: 100%;
+}
+
+button {
+	background-color: gray;
+	color: white;
+	display: flex;
+	margin-top: 35px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    padding: 0px 0px 0px 15px;
+}
